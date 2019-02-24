@@ -1,10 +1,12 @@
 
 body{
-    background: #b3b3b3;
-    /* background-image: url(../images/positive.png);
-    background-repeat: repeat; */
+    background: #b3b3b3 ;
+    background-image: url();
+    background-repeat: repeat;
+    background:linear-gradient(0deg,rgba(198, 255, 243, 0.3),rgba(60, 255, 213, 0.541)),url(../images/positive.png);
+
     min-height: 999px;
-    
+
 }
 
 button{
@@ -14,13 +16,19 @@ button{
 
 li{
     border-right: solid 1px #cccccc;
+    color: #333333;
+    text-decoration: none;
 }
 li:last-child{
     border-right: none;
 }
 
+
+
 nav{
     box-shadow: 2px black;
+    /* height: 55px; */
+    color: grey;
 }
 
 footer{
@@ -46,7 +54,7 @@ footer{
 #logo{
     float: left;
     width: 250px;
-    height: 99%;
+    /* height: 99%; */
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: 900;
@@ -89,7 +97,10 @@ img.portfolio{
   
 
 .navbar{
-height: 2%;
+
+    box-shadow: 2px black;
+    /* height: 55px; */
+    color: grey;
 }
 
 #nav-header{
